@@ -18,3 +18,5 @@ CREATE Table tblcategoria(
 	unique (descripcion)
 )
 go
+
+-- Crear la tabla Prodcutos
