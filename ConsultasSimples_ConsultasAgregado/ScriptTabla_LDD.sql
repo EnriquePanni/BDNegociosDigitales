@@ -16,10 +16,10 @@ values (1,'Ropa')
 
 
 insert into categoria (idCategoria, Descripcion)
-values (5 'Linea Blanca')
+values (5 'Linea Blanca'),
 
 insert into categoria (Descripcion, idCategoria)
-values (5 'Electronica', 6)
+values (5 'Electronica', 6),
 
 --Insert varios registros a la vez
 insert into Categoria
@@ -30,7 +30,7 @@ values(7, 'Carnes Buenas'),
 
 --Insertar a partir de una consulta
 
-slect id Categoria, Descripcion from categoria
+select id Categoria, Descripcion from categoria
 
 create categoriaCopia(
 	categoriaid int not null primary key,
